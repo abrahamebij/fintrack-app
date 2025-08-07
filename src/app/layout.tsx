@@ -1,11 +1,6 @@
 import type { Metadata } from "next";
-import { Public_Sans } from "next/font/google";
 import "./globals.css";
-
-const publicSans = Public_Sans({
-  variable: "--font-public-sans",
-  subsets: ["latin"],
-});
+import { publicSans, timmana } from "@/utils/fonts";
 
 export const metadata: Metadata = {
   title: "Fintrack",
@@ -19,7 +14,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${publicSans.className} antialiased`}>{children}</body>
+      <body
+        className={`${publicSans.className} ${timmana.variable} antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

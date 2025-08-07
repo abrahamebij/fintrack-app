@@ -1,24 +1,29 @@
 @import "tailwindcss";
 
+@custom-variant hover (&:hover);
+
 @theme inline {
   --color-background: #fcfdfd;
   --color-gray: #15272d62;
   --color-foreground: #1b2528;
   --color-primary: #4b8b9f;
   --color-gentle-gray: #34616f;
+  --color-navlink: #38677616;
 }
 
 @media (prefers-color-scheme: dark) {
 }
 
 body {
-  @apply bg-background text-foreground;
+  @apply bg-background text-foreground font-medium;
 }
 button {
   @apply cursor-pointer;
 }
-@layer utilities {
-  .heading {
-    @apply font-bold text-3xl;
-  }
+
+.heading {
+  @apply font-bold text-3xl;
+}
+.font-timmana {
+  font-family: var(--font-timmana);
 }

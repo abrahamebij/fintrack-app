@@ -138,7 +138,7 @@ export default function TransactionTable() {
               <td className="px-4 py-3 text-sm text-gray-700">{tx.date}</td>
               <td className="px-4 py-3 text-sm text-gray-700">{tx.remark}</td>
               <td className="px-4 py-3 text-sm font-medium text-gray-900 text-right">
-                {tx.amount.toLocaleString(undefined, {
+                {tx.amount.toLocaleString("en-US", {
                   style: "currency",
                   currency: tx.currency,
                 })}
