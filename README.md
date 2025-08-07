@@ -52,7 +52,7 @@ It demonstrates my ability to:
 
 ## **Tech Stack**
 
-* **Framework**: [Next.js 14](https://nextjs.org/) (React + TypeScript)
+* **Framework**: [Next.js 15](https://nextjs.org/) (React + TypeScript)
 * **Deployment**: [Vercel](https://vercel.com/)
 
 ---
@@ -60,16 +60,16 @@ It demonstrates my ability to:
 ## **Project Structure**
 
 ```bash
+/app             # Route to the main page
 /components
   /layout        # Sidebar, Header, Tabs
-  /summary       # SummaryCard component
+  /ui            # UI components
   /table         # TransactionTable & Sorting logic
-/app
-  index.tsx      # Dashboard view
-# /public
-#   preview.png    # Screenshot for README
+/context         # Context for sidebar
+/data            # Mock transaction data
+/public          # Public assets
 /styles
-  globals.css   # Global styles
+  globals.css    # Global styles
 /types
   index.ts       # TypeScript interfaces
 ```

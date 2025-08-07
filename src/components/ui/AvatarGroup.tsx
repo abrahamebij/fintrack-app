@@ -1,11 +1,7 @@
 import { cn } from "@/utils/cn";
 import Img from "./Img";
+import { AvatarProps } from "@/types";
 
-interface AvatarProps {
-  src: string;
-  alt: string;
-  className?: string;
-}
 const AvatarGroup = ({ imgData }: { imgData: AvatarProps[] }) => {
   return (
     <div className="flex -space-x-1 overflow-hidden">

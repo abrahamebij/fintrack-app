@@ -1,11 +1,7 @@
+import { BadgeProps } from "@/types";
 import { cn } from "@/utils/cn";
 import { GoDotFill } from "react-icons/go";
 
-interface BadgeProps {
-  title: string;
-  success: boolean;
-  className?: string;
-}
 const Badge = ({ title, success, className }: BadgeProps) => {
   return (
     <div

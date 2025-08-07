@@ -1,11 +1,6 @@
+import { ImgProps } from "@/types";
 import { cn } from "@/utils/cn";
 import Image, { ImageProps } from "next/image";
-
-type ImgProps = {
-  src: string;
-  alt: string;
-  className?: string;
-} & Omit<ImageProps, "src" | "alt" | "className">;
 
 const Img = ({ src, alt, className = "", ...rest }: ImgProps) => {
   return (
