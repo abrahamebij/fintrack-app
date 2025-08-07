@@ -9,12 +9,14 @@ It demonstrates my ability to:
 * Handle **state management** for sorting and dynamic interactions.
 * Deploy a production-ready application to the cloud (Vercel).
 
-<!-- ---
+
 
 ## **Live Demo & Repository**
 
-* **Live App**: [https://fintrack-dashboard.vercel.app](https://fintrack-dashboard.vercel.app)
-* **GitHub Repository**: [https://github.com/yourusername/fintrack](https://github.com/yourusername/fintrack) -->
+* **Live App**: [https://fintrack-dashboard.vercel.app](https://fintrack-app-rouge.vercel.app)
+* **GitHub Repository**: [https://github.com/abrahamebij/fintrack-app](https://github.com/yourusername/fintrack)
+<img width="1326" height="825" alt="download (2)" src="https://github.com/user-attachments/assets/54c8e053-9b14-4a1e-9c11-3ae8d7725a15" />
+
 
 ---
 
