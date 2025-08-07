@@ -2,8 +2,10 @@
 
 @theme inline {
   --color-background: #fcfdfd;
-  --color-foreground: #15272d62;
-  --color-heading: #1b2528;
+  --color-gray: #15272d62;
+  --color-foreground: #1b2528;
+  --color-primary: #4b8b9f;
+  --color-gentle-gray: #34616f;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -12,9 +14,11 @@
 body {
   @apply bg-background text-foreground;
 }
-
+button {
+  @apply cursor-pointer;
+}
 @layer utilities {
   .heading {
-    @apply text-heading font-bold text-3xl;
+    @apply font-bold text-3xl;
   }
 }
