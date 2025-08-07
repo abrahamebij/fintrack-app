@@ -35,7 +35,7 @@ export default function TransactionTable() {
               onClick={() => sortBy("date")}
             >
               Date
-              <FiArrowDownCircle className="ml-1 text-gray-400" />
+              <HiOutlineArrowsUpDown className="ml-1 text-gray-400" />
             </th>
             <th className="px-4 py-3">Remark</th>
             <th

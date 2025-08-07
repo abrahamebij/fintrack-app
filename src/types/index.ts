@@ -6,6 +6,11 @@ export type MenuContextType = {
   setIsMenuOpen: Dispatch<SetStateAction<boolean>>;
 };
 
+export type TabsContextType = {
+  activeTab: string;
+  setActiveTab: Dispatch<SetStateAction<string>>;
+};
+
 export type ImgProps = {
   src: string;
   alt: string;
